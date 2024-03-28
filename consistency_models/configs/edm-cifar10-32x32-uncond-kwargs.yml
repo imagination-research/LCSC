@@ -1,0 +1,12 @@
+augment_dim: 0
+channel_mult: [2, 2, 2]
+channel_mult_noise: 2
+dropout: 0.0
+embedding_type: fourier
+encoder_type: residual
+img_resolution: 32
+in_channels: 3
+label_dim: 0
+model_channels: 128
+out_channels: 3
+resample_filter: [1, 3, 3, 1]
