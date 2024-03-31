@@ -2,7 +2,7 @@
 
 This is the official code of paper "Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better".
 
-# Enhanced Models
+## Enhanced Models
 
 We have released some of the model weights enhanced by LCSC. Here are the download links for these model weights:
 
@@ -13,7 +13,7 @@ We have released some of the model weights enhanced by LCSC. Here are the downlo
 
  TODO: DM models.
 
-# Dependencies
+## Dependencies
 
 To install all packages in this codebase along with their dependencies, run
 ```sh
@@ -25,23 +25,23 @@ To install with Docker, run the following commands:
 cd docker && make build && make run
 ```
 
-# Model training
+## Model training
 
 We recommend using the original codebase to train models and saving checkpoints for LCSC during the training process. In our paper, we use the official code of [consistency models](https://github.com/openai/consistency_models) to conduct experimetns with consistency distillation and consistency training. For diffusion models, we use the official code of [DDIM](https://github.com/ermongroup/ddim) and [iDDPM](https://github.com/openai/improved-diffusion) to train models on CIFAR-10 and ImageNet-64, respectively. 
 
-# Search the combination coefficients
+## Search the combination coefficients
 
 We are still rearranging our code of evolutionary search and will soon release it.
 
-# Model sampling
+## Model sampling
 
 We provide examples of EDM training, consistency distillation, consistency training, single-step generation, and multistep generation in [scripts/sample.sh](scripts/sample.sh). TODO: DM commands.
 
-# Evaluations
+## Evaluations
 
 We use FID to compare the different generative models. We implement FID calculation in [evaluations/fid_score.py](evaluations/fid_score.py) based on [Pytorch FID](https://github.com/mseitzer/pytorch-fid). One can also use the implementation from the original Consistency Models codebase in [evaluations/evaluator.py](evaluations/evaluator.py), which may yield results slightly different from the former implementation. Our sample scripts will automatically evaluate the generated samples stored in `.npz` (numpy) files after finishing the sampling process.
 
-# Acknowledgement
+## Acknowledgement
 
-Our implementation of searching and sampling s strongly based on [Consistency Models](https://github.com/openai/consistency_models). Below is the guidance from the original code base.
+Our implementation of searching and sampling is strongly based on [Consistency Models](https://github.com/openai/consistency_models). We thank this valuable work.
 
