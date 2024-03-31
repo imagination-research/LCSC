@@ -10,8 +10,8 @@ We have released some of the model weights enhanced by LCSC. Here are the downlo
  * CT on CIFAR-10 at 830K training iteration: https://drive.google.com/file/d/1mSH3KgNjGv5_DE1bweYqvgZwcMhYzJwp/view?usp=sharing
  * CD on ImageNet-64 at 620K training iteration: https://drive.google.com/file/d/19A9xCcHGpDrTpzL8ey_2F2M2wVTbmReJ/view?usp=sharing
  * CT on ImageNet-64 at 1000K training iteration:  https://drive.google.com/file/d/1sYz1MAfZz6eNWE2zp3fC9zW3famoll6b/view?usp=sharing
-
- TODO: DM models.
+ * Improved DDPM on ImageNet-64 at 350K training iteration: https://drive.google.com/file/d/1nQS-e-NNwc_aSKQRahwO5htq9LzaJ4WI/view?usp=drive_link
+ * DDPM on CIFAR10 at 800K training iteration: https://drive.google.com/file/d/1tkmbJ85IX9BQK5qGNI26F2vEc7nH-1qf/view?usp=drive_link 
 
 ## Dependencies
 
@@ -35,7 +35,7 @@ We are still rearranging our code of evolutionary search and will soon release i
 
 ## Model sampling
 
-We provide examples of EDM training, consistency distillation, consistency training, single-step generation, and multistep generation in [scripts/sample.sh](scripts/sample.sh). TODO: DM commands.
+We provide examples of EDM training, consistency distillation, consistency training, single-step generation, and multistep generation in [scripts/sample.sh](scripts/sample.sh).
 
 ## Evaluations
 
