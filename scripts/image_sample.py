@@ -120,7 +120,7 @@ def main():
     
     from evaluations.fid_score import calculate_fid_given_paths
 
-    fid_stats_dir = "/share/liuenshu/temp_files/activation_save/cifar10"
+    fid_stats = np.load(args.ref_batch)
     samples = np.load(out_path)["arr_0"]
     samples = th.from_numpy(samples.astype(np.float32) / 255.0).permute(0, 3, 1, 2)
     logger.log(f"sample shape: {samples.shape}")
@@ -130,7 +130,7 @@ def main():
         device=dist_util.dev(), 
         dims=2048, 
         num_workers=8, 
-        load_act=[fid_stats_dir, None],
+        load_act=[fid_stats, None],
         save_act=[None, None],
     )
     logger.log(fid)
@@ -152,7 +152,8 @@ def create_argparser():
         seed=42,
         ts="",
         gpu="0",
-        exp="/share/liuenshu/temp_files/lcsc_clean",
+        exp="",
+        ref_batch="",
     )
     defaults.update(model_and_diffusion_defaults())
     parser = argparse.ArgumentParser()

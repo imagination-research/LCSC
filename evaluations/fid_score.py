@@ -281,6 +281,9 @@ def compute_statistics_of_path(path, model, batch_size, dims, device,
         act = torch.load(os.path.join(load_act, "statistic.pth"))
         m = act["m"]
         s = act["s"]
+    elif load_act is not None and isinstance(load_act, dict):
+        m = load_act["mu"]
+        s = load_act["sigma"]
     else:
         if isinstance(path, str):
             path = pathlib.Path(path)
