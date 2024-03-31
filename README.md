@@ -43,5 +43,5 @@ We use FID to compare the different generative models. We implement FID calculat
 
 ## Acknowledgement
 
-Our implementation of searching and sampling is strongly based on [Consistency Models](https://github.com/openai/consistency_models). We thank this valuable work.
+Our search and sampling implementations have been developed based on [Consistency Models](https://github.com/openai/consistency_models), [DDIM](https://github.com/ermongroup/ddim), [DPM-Solver]([https://github.com/openai/consistency_models](https://github.com/LuChengTHU/dpm-solver)), [Improved DDPM]([https://github.com/openai/consistency_models](https://github.com/openai/improved-diffusion)). We thank these valuable works.
 
