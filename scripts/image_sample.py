@@ -3,7 +3,7 @@ Generate a large batch of image samples from a model and save them as a large
 numpy array. This can be used to produce samples for FID evaluation.
 """
 import sys
-sys.path.insert(0, ".")
+sys.path.insert(0, "..")
 
 import argparse
 import os
