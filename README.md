@@ -46,11 +46,11 @@ We use FID to compare the different generative models. We implement FID calculat
 This work is maintained by [NICS-EFC Lab](https://nicsefc.ee.tsinghua.edu.cn/) (Tsinghua University), [Infinigence-AI](https://www.infini-ai.com/) (Beijing China), [PSI](https://www.esat.kuleuven.be/psi) (KU Leuven), [Microsoft Research](https://www.microsoft.com/en-us/research/) and [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). 
 
 <p align="middle">
-  <img src="logo/logo_nicsefc.jpg" width="15%" hspace="30" />
-  <img src="logo/logo_Infinigence-ai.jpg" width="16%" hspace="30" />
-  <img src="logo/logo_psi.jpg" width="15%" hspace="30" />
-  <img src="logo/logo_msr.jpg" width="12%" hspace="30" />
-  <img src="logo/logo_sjtu.jpg" width="6%" hspace="30" />
+  <img src="logo/logo_nicsefc.jpg" width="14%" hspace="30" />
+  <img src="logo/logo_Infinigence-ai.jpg" width="15%" hspace="30" />
+  <img src="logo/logo_psi.jpg" width="14%" hspace="30" />
+  <img src="logo/logo_msr.jpg" width="11%" hspace="30" />
+  <img src="logo/logo_sjtu.jpg" width="5%" hspace="30" />
 </p>
 
 All computational resources used in this work are from [Infinigence-AI](https://www.infini-ai.com/).
