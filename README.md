@@ -43,8 +43,6 @@ We use FID to compare the different generative models. We implement FID calculat
 
 ## Acknowledgement
 
-Our search and sampling implementations have been developed based on [Consistency Models](https://github.com/openai/consistency_models), [DDIM](https://github.com/ermongroup/ddim), [DPM-Solver](https://github.com/LuChengTHU/dpm-solver), [Improved DDPM](https://github.com/openai/improved-diffusion). We thank these valuable works.
-
 This work is maintained by [NICS-EFC Lab](https://nicsefc.ee.tsinghua.edu.cn/) (Tsinghua University), [Infinigence-AI](https://www.infini-ai.com/) (Beijing China), [PSI](https://www.esat.kuleuven.be/psi) (KU Leuven), [Microsoft Research](https://www.microsoft.com/en-us/research/) and [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). 
 
 <p align="middle">
@@ -60,7 +58,7 @@ All computational resources used in this work are from [Infinigence-AI](https://
   <img src="logo/logo_Infinigence-ai.jpg" width="35%" hspace="30" />
 </p>
 
-
+Our search and sampling implementations have been developed based on [Consistency Models](https://github.com/openai/consistency_models), [DDIM](https://github.com/ermongroup/ddim), [DPM-Solver](https://github.com/LuChengTHU/dpm-solver), [Improved DDPM](https://github.com/openai/improved-diffusion). We thank these valuable works.
 
 ## Contact Us
 
