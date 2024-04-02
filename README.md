@@ -49,7 +49,7 @@ This work is maintained by [NICS-EFC Lab](https://nicsefc.ee.tsinghua.edu.cn/) (
 
 <p align="middle">
   <img src="logo/logo_nicsefc.jpg" width="15%" hspace="30" />
-  <img src="logo/logo_Infinigence-ai.jpg" width="18%" hspace="30" />
+  <img src="logo/logo_Infinigence-ai.jpg" width="16%" hspace="30" />
   <img src="logo/logo_psi.jpg" width="15%" hspace="30" />
   <img src="logo/logo_msr.jpg" width="12%" hspace="30" />
   <img src="logo/logo_sjtu.jpg" width="6%" hspace="30" />
