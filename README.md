@@ -1,6 +1,6 @@
 # LCSC
 
-This is the official code of paper "Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better".
+This is the official code of paper [Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better](http://arxiv.org/abs/2404.02241).
 
 ## Enhanced Models
 
@@ -49,7 +49,7 @@ This work is maintained by [NICS-EFC Lab](https://nicsefc.ee.tsinghua.edu.cn/) (
 
 <p align="middle">
   <img src="logo/logo_nicsefc.jpg" width="15%" hspace="30" />
-  <img src="logo/logo_Infinigence-ai.jpg" width="18%" hspace="30" />
+  <img src="logo/logo_Infinigence-ai.jpg" width="16%" hspace="30" />
   <img src="logo/logo_psi.jpg" width="15%" hspace="30" />
   <img src="logo/logo_msr.jpg" width="12%" hspace="30" />
   <img src="logo/logo_sjtu.jpg" width="6%" hspace="30" />
@@ -57,7 +57,7 @@ This work is maintained by [NICS-EFC Lab](https://nicsefc.ee.tsinghua.edu.cn/) (
 
 All computational resources used in this work are from [Infinigence-AI](https://www.infini-ai.com/).
 <p align="middle">
-  <img src="logo/logo_Infinigence-ai.jpg" width="35%" hspace="30" />
+  <img src="logo/logo_Infinigence-ai.jpg" width="40%" hspace="30" />
 </p>
 
 
