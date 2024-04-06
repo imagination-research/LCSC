@@ -1,6 +1,20 @@
 # LCSC
 
-This is the official code of paper [Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better](http://arxiv.org/abs/2404.02241).
+**[website (on the way)]** **[[paper (arXiv)](http://arxiv.org/abs/2404.02241)]** **[[code](https://github.com/imagination-research/LCSC)]**
+
+This is the official code of paper "Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better".
+
+If you find this repository or paper useful, you can cite
+```
+@misc{liu2024linear,
+      title={Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better}, 
+      author={Enshu Liu and Junyi Zhu and Zinan Lin and Xuefei Ning and Matthew B. Blaschko and Sergey Yekhanin and Shengen Yan and Guohao Dai and Huazhong Yang and Yu Wang},
+      year={2024},
+      eprint={2404.02241},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
 
 ## Enhanced Models
 
@@ -43,7 +57,7 @@ We use FID to compare the different generative models. We implement FID calculat
 
 ## Acknowledgement
 
-This work is maintained by [NICS-EFC Lab](https://nicsefc.ee.tsinghua.edu.cn/) (Tsinghua University), [Infinigence-AI](https://www.infini-ai.com/) (Beijing, China), [ESAT-PSI lab](https://www.esat.kuleuven.be/psi) (KU Leuven), [Microsoft Research](https://www.microsoft.com/en-us/research/) and [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). 
+This work is a joint work from [NICS-EFC Lab](https://nicsefc.ee.tsinghua.edu.cn/) (Tsinghua University), [Infinigence-AI](https://www.infini-ai.com/) (Beijing, China), [ESAT-PSI lab](https://www.esat.kuleuven.be/psi) (KU Leuven), [Microsoft Research](https://www.microsoft.com/en-us/research/) and [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). 
 
 <p align="middle">
   <img src="logo/logo_nicsefc.jpg" width="14%" hspace="30" />
@@ -53,7 +67,7 @@ This work is maintained by [NICS-EFC Lab](https://nicsefc.ee.tsinghua.edu.cn/) (
   <img src="logo/logo_sjtu.jpg" width="5%" hspace="30" />
 </p>
 
-All computational resources used in this work are from [Infinigence-AI](https://www.infini-ai.com/).
+All computational resources used in this work are supported by [Infinigence-AI](https://www.infini-ai.com/).
 <p align="middle">
   <img src="logo/logo_Infinigence-ai.jpg" width="40%" hspace="30" />
 </p>
