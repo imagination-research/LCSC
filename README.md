@@ -1,8 +1,8 @@
-# LCSC
+# LCSC 
 
-**[website (on the way)]** **[[paper (arXiv)](http://arxiv.org/abs/2404.02241)]** **[[code](https://github.com/imagination-research/LCSC)]**
+**[website (on the way)]** **[[paper (ICLR25)]([http://arxiv.org/abs/2404.02241](https://openreview.net/forum?id=QowsEic1sc&noteId=WE08tmA6kY))]** **[[paper (arXiv)](http://arxiv.org/abs/2404.02241)]** **[[code](https://github.com/imagination-research/LCSC)]**
 
-This is the official code of paper "Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better".
+This is the official code of paper "Linear Combination of Saved Checkpoints Makes Consistency and Diffusion Models Better (ICLR25)".
 
 If you find this repository or paper useful, you can cite
 ```
